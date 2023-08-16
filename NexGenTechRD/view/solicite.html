@@ -1,0 +1,45 @@
+<html lang="es">
+
+<head>
+    <title>Formulario de Solicitud</title>
+    <meta charset="UTF-8">
+    <!-- Agrega el enlace a los estilos de Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+</head>
+
+<body>
+    <div class="container m-sm-5">
+        <h2>Formulario de Solicitud</h2>
+        <form action="solicite.php" method="post">
+            <div class="form-group">
+                <label for="fullname">Nombre Completo:</label>
+                <input name="fullname" type="text" class="form-control" id="fullname" placeholder="Ingresa tu nombre completo">
+            </div>
+            <div class="form-group">
+                <label for="phone">Teléfono:</label>
+                <input name="phone" type="tel" class="form-control" id="phone" placeholder="Ingresa tu número de teléfono">
+            </div>
+            <div class="form-group">
+                <label for="address">Dirección:</label>
+                <input name="address" type="text" class="form-control" id="address" placeholder="Ingresa tu dirección">
+            </div>
+            <div class="form-group">
+                <label for="application_date">Fecha de Solicitud:</label>
+                <input name="application_date" type="date" class="form-control" id="application_date">
+            </div>
+            <div class="form-group">
+                <label for="solicited_service">Servicio Solicitado:</label>
+                <input name="solicited_service" type="text" class="form-control" id="solicited_service" placeholder="Ingresa el servicio solicitado">
+            </div>
+            <button name="create" type="submit" class="btn btn-primary">Enviar Solicitud</button>
+        </form>
+    </div>
+
+    <!-- Agrega el enlace a los scripts de Bootstrap -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
